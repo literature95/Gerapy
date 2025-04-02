@@ -1,0 +1,32 @@
+INFO - 2025-04-02 09:00:59,397 - process: 21488 - scheduler.py - gerapy.server.core.scheduler - 105 - scheduler - successfully synced task with jobs with force
+ERROR - 2025-04-02 09:01:26,368 - process: 21488 - utils.py - gerapy.server.core.utils - 564 - utils - The `request` argument must be an instance of `django.http.HttpRequest`, not `rest_framework.request.Request`.
+Traceback (most recent call last):
+  File "c:\users\10153\onedrive\桌面\论文\gerapy\venv\lib\site-packages\gerapy\server\core\utils.py", line 562, in wrapper
+    result = func(*args, **kwargs)
+  File "c:\users\10153\onedrive\桌面\论文\gerapy\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "c:\users\10153\onedrive\桌面\论文\gerapy\venv\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "c:\users\10153\onedrive\桌面\论文\gerapy\venv\lib\site-packages\rest_framework\views.py", line 488, in dispatch
+    request = self.initialize_request(request, *args, **kwargs)
+  File "c:\users\10153\onedrive\桌面\论文\gerapy\venv\lib\site-packages\rest_framework\views.py", line 387, in initialize_request
+    return Request(
+  File "c:\users\10153\onedrive\桌面\论文\gerapy\venv\lib\site-packages\rest_framework\request.py", line 154, in __init__
+    assert isinstance(request, HttpRequest), (
+AssertionError: The `request` argument must be an instance of `django.http.HttpRequest`, not `rest_framework.request.Request`.
+ERROR - 2025-04-02 09:01:59,283 - process: 21488 - utils.py - gerapy.server.core.utils - 564 - utils - The `request` argument must be an instance of `django.http.HttpRequest`, not `rest_framework.request.Request`.
+Traceback (most recent call last):
+  File "c:\users\10153\onedrive\桌面\论文\gerapy\venv\lib\site-packages\gerapy\server\core\utils.py", line 562, in wrapper
+    result = func(*args, **kwargs)
+  File "c:\users\10153\onedrive\桌面\论文\gerapy\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "c:\users\10153\onedrive\桌面\论文\gerapy\venv\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "c:\users\10153\onedrive\桌面\论文\gerapy\venv\lib\site-packages\rest_framework\views.py", line 488, in dispatch
+    request = self.initialize_request(request, *args, **kwargs)
+  File "c:\users\10153\onedrive\桌面\论文\gerapy\venv\lib\site-packages\rest_framework\views.py", line 387, in initialize_request
+    return Request(
+  File "c:\users\10153\onedrive\桌面\论文\gerapy\venv\lib\site-packages\rest_framework\request.py", line 154, in __init__
+    assert isinstance(request, HttpRequest), (
+AssertionError: The `request` argument must be an instance of `django.http.HttpRequest`, not `rest_framework.request.Request`.
+INFO - 2025-04-02 09:03:21,660 - process: 21488 - views.py - gerapy.server.core.views - 140 - views - Connected to MySQL database
